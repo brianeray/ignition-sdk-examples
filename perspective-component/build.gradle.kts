@@ -4,8 +4,8 @@ import java.util.concurrent.TimeUnit
 plugins {
     base
     // the ignition module plugin: https://github.com/inductiveautomation/ignition-module-tools
-    id("io.ia.sdk.modl") version("0.1.1")
-    id("org.barfuin.gradle.taskinfo") version "1.3.0"
+    id("io.ia.sdk.modl") version("0.2.0-SNAPSHOT")
+    id("org.barfuin.gradle.taskinfo") version "2.2.0"
 }
 
 allprojects {
